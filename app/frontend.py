@@ -20,7 +20,7 @@ def extrair_nome_digimon(user_input):
 
 def main():
     st.set_page_config(page_title="Digimon RAG", layout="centered")
-    st.title("🤖 Digimon RAG")
+    st.title(" Digimon RAG")
     st.markdown("Pergunte sobre qualquer **Digimon** e descubra seus pontos fortes, fracos e muito mais com **LangChain + Grafo!**")
 
     user_question = st.text_input("Digite sua pergunta:")
@@ -41,7 +41,7 @@ def main():
             if os.path.exists("graph.png"):
                 st.image(Image.open("graph.png"), caption=f"Relações do {nome_digimon}")
         else:
-            st.warning("🤔 Não consegui identificar o nome do Digimon na pergunta.")
+            st.warning(" Não consegui identificar o nome do Digimon na pergunta.")
 
 if __name__ == "__main__":
     main()
