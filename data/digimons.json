@@ -1,0 +1,16 @@
+[
+  {
+    "nome": "WarGreymon",
+    "nivel": "Mega",
+    "pontos_fortes": ["Fogo", "Combate corpo a corpo", "Velocidade"],
+    "pontos_fracos": ["Água", "Ataques mágicos"],
+    "descricao": "WarGreymon é um Digimon dragão humanoide com armadura cromada."
+  },
+  {
+    "nome": "Patamon",
+    "nivel": "Rookie",
+    "pontos_fortes": ["Voo", "Agilidade"],
+    "pontos_fracos": ["Baixa força", "Defesa fraca"],
+    "descricao": "Patamon é um pequeno Digimon voador com grandes orelhas."
+  }
+]
